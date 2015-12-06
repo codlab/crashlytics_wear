@@ -1,3 +1,5 @@
+![Crashlytics](https://try.crashlytics.com/images/media_kit/crashlytics-logo-low-res-on-white.png)
+
 Crashlytics report made easy with Android Wear
 
 # Note
