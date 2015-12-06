@@ -14,8 +14,8 @@ public class CrashlyticsWearApplication extends Application {
 
         _exception_catcher = new CrashlyticsWearExceptionCatcher(this);
 
+        _exception_catcher.setDefaultExceptionCatcher(Thread.getDefaultUncaughtExceptionHandler());
         Thread.setDefaultUncaughtExceptionHandler(_exception_catcher);
 
-        _exception_catcher.setDefaultExceptionCatcher(Thread.getDefaultUncaughtExceptionHandler());
     }
 }
