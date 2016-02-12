@@ -1,1 +1,1 @@
-include ':wear_library', ':mobile_library'
+include ':wear_library'
